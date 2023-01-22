@@ -48,7 +48,7 @@ const TaskList = () => {
                         <h5>Your Task:</h5>
                     </div>
                     <div className='card-body' data-mdb-perfect-scrollbar= 'true' style={ { position: 'relative', height: '400px' } }>
-                        <table>
+                        <table className='table'>
                             <thead>
                                 <tr>
                                     <th scope='col'>Title</th>
