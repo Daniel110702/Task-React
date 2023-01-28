@@ -4,7 +4,7 @@ export class Task {
     name = '';
     description = '';
     completed = false;
-    level = LEVELS.NORMAL
+    level = LEVELS.NORMAL;
 
     constructor (name, description, completed, level) {
         this.name = name;
